@@ -83,9 +83,16 @@ function App() {
       {/* Header */}
       <header className="sticky top-0 z-30 border-b border-slate-100 bg-white/80 backdrop-blur">
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
-          <div>
-            <h1 className="text-xl font-extrabold text-teal-700">🐾 Doorstep Pet Vet</h1>
-            <p className="text-xs text-slate-500">Veterinary care at home</p>
+          <div className="flex items-center gap-3">
+            <img
+              src="/avatar.png"
+              alt="Doorstep Pet Vet Logo"
+              className="h-10 w-10 rounded-full object-cover shadow-sm ring-2 ring-teal-600/20"
+            />
+            <div>
+              <h1 className="text-xl font-extrabold text-teal-700">Doorstep Pet Vet</h1>
+              <p className="text-xs text-slate-500">Veterinary care at home</p>
+            </div>
           </div>
           <a
             href="#packages"
@@ -276,7 +283,10 @@ function App() {
 
       {/* Footer */}
       <footer className="bg-slate-900 px-5 py-10 text-center text-slate-400">
-        <p className="text-lg font-bold text-white">🐾 Doorstep Pet Vet</p>
+        <div className="mx-auto mb-2 flex items-center justify-center gap-2">
+          <img src="/avatar.png" alt="Doorstep Pet Vet Logo" className="h-7 w-7 rounded-full object-cover" />
+          <p className="text-lg font-bold text-white">Doorstep Pet Vet</p>
+        </div>
         <p className="mt-1 text-sm">Veterinary care at home, for the pets you love.</p>
       </footer>
 
