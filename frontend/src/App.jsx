@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const WHATSAPP_NUMBER = "919492589390";
+const WHATSAPP_NUMBER = "919346297972";
 
 const PACKAGES = [
   {
